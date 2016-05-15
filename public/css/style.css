@@ -1,3 +1,40 @@
 body {
   background: lightblue;
+  margin: 0px;
+}
+
+h1 {
+  color:#ff3333!important;
+  font-size:180px!important;
+  font-family:arial;
+  text-align: center;
+}
+
+.sunset {
+    background-image: url("https://static.pexels.com/photos/6676/landscape-sunset-blue-sunrise-large.jpeg");
+    background-size: cover;
+    height: 100vh;
+}
+
+
+main {
+  margin-left: 10%;
+  margin-right: 10%;
+}
+.power{
+    position: relative;
+
+  width: 80%;
+
+  }
+.competences {
+  position: relative;
+  width: 33.2%;
+  float: left;
+}
+@media (max-width:1000px) {
+  .competences {
+    width: 100%;
+  }
+}
 }
